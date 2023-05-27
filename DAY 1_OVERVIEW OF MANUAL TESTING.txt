@@ -1,0 +1,68 @@
+		DAY 1_OVERVIEW OF MANUAL TESTING
+
+
+1.
+
+Test id : 01
+Test Scenario :i want to login to my acccount with a valid email id and password so that i can moniter and manage the entire admin dashboard
+Test steps:
+		1.go to https://studenthostel.neohire.io/
+		2.click login option for admin
+		3.enter admin field as ui
+		4.enter Test@1234 as password
+		5.click login button
+Test data:Admin login id-admin,Admin pass-Test@1234
+Expected Result:It displays dashboard page succcessfully
+Post condition:Admin dashboard can be monitered and managed
+Status:pass.
+
+
+2.
+
+Test id : 02
+Test Scenario :i want to login to my acccount with a valid email id and password so that i can moniter and manage the entire admin dashboard
+Test steps:
+		1.go to https://studenthostel.neohire.io/
+		2.click login option for admin
+		3.enter admin field as ui
+		4.enter Test@1234 as password
+		5.click login button
+		6.check the availability of detail in Dashboard
+Test data:Admin login id-admin,Admin pass-Test@1234
+Expected Result:It displays dashboard page succcessfully
+Post condition:Admin dashboard can be monitered and managed
+Status:pass.
+
+3.
+
+Test id : 03
+Test Scenario :i want to login to my acccount with a valid email id and password so that i can access the Courses section
+Test steps:
+		1.go to https://studenthostel.neohire.io/
+		2.click login option for admin
+		3.enter admin field as ui
+		4.enter Test@1234 as password
+		5.click login button
+		6.Access the course section like adding and update the details
+Test data:Admin login id-admin,Admin pass-Test@1234
+Expected Result:It displays dashboard page succcessfully
+Post condition:Admin dashboard can be monitered and managed
+Status:pass.
+
+4.
+
+Test id : 04
+Test Scenario :i want to login to my acccount with a valid email id and password so that i can access the Rooms section
+Test steps:
+		1.go to https://studenthostel.neohire.io/
+		2.click login option for admin
+		3.enter admin field as ui
+		4.enter Test@1234 as password
+		5.click login button
+		6.Access the Room section like add rooms and manage rooms option to modify room details
+Test data:Admin login id-admin,Admin pass-Test@1234
+Expected Result:It displays dashboard page succcessfully
+Post condition:Admin dashboard can be monitered and managed
+Status:pass.
+
+
