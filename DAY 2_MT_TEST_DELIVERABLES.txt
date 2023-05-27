@@ -1,0 +1,84 @@
+				DAY 2_MT_TEST_DELIVERABLES
+
+1.
+
+Test id : 01
+Test Scenario :i want to login to my acccount with a valid email id and password so that i can moniter and manage the entire admin dashboard
+Test steps:
+		1.go to https://carrental.neohire.io/
+		2.click login option for admin
+		3.enter admin field as ui
+		4.enter Test@1234 as password
+		5.click login button
+Test data:Admin login id-admin,Admin pass-Test@1234
+Expected Result:It displays dashboard page succcessfully
+Post condition:Admin dashboard can be monitered and managed
+Status:pass.
+
+2.
+
+Test id : 02
+Test Scenario :i want to view all the detail in Dashboard so that i can maintain a database for all the features available
+Test steps:
+		1.go to https://carrental.neohire.io/
+		2.click login option for admin
+		3.enter admin field as ui
+		4.enter Test@1234 as password
+		5.click login button and visit dashboard
+		6.click features button to view all informations
+Test data:Admin login id-admin,Admin pass-Test@1234
+Expected Result:It displays dashboard page succcessfully with all informations
+Post condition:Admin dashboard can be monitered and managed
+Status:pass.
+
+3.
+
+Test id : 03
+Test Scenario :i want to add brand detail so that i can maintain a database for class details
+Test steps:
+		1.go to https://carrental.neohire.io/
+		2.click login option for admin
+		3.enter admin field as ui
+		4.enter Test@1234 as password
+		5.click login button
+		6.click create brand and fill the detailes
+		7.click submit button to save details and display them.
+Test data:Admin login id-admin,Admin pass-Test@1234
+Expected Result:It displays dashboard page succcessfully and brand is succesfully created
+Post condition:Admin dashboard can be monitered and managed
+Status:pass.
+
+4.
+
+Test id : 04
+Test Scenario :i want to manage the brand details so that i can update/delete the information related to the class
+Test steps:
+		1.go to https://carrental.neohire.io/
+		2.click login option for admin
+		3.enter admin field as ui
+		4.enter Test@1234 as password
+		5.click login button
+		6.click manage brand
+		7.ensure update/delete button is enabled for each brand
+Test data:Admin login id-admin,Admin pass-Test@1234
+Expected Result:It displays dashboard page succcessfully and brand can be updated/deleted
+Post condition:Admin dashboard can be monitered and managed
+Status:pass.
+
+5.
+
+Test id : 05
+Test Scenario :i want to edit the manage details so that i can update the information related to the database
+Test steps:
+		1.go to https://carrental.neohire.io/
+		2.click login option for admin
+		3.enter admin field as ui
+		4.enter Test@1234 as password
+		5.click login button
+		6.click manage brand
+		7.ensure update/delete button is enabled for each brand
+		8.click update for filling deatils in respective field and update button for successful prompt
+Test data:Admin login id-admin,Admin pass-Test@1234
+Expected Result:It displays dashboard page succcessfully and successfully updated the details.
+Post condition:Admin dashboard can be monitered and managed
+Status:pass.
